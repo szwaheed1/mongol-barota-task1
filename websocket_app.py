@@ -4,7 +4,7 @@ from flask_socketio import SocketIO, emit
 
 # Create Flask app
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your-secret-key'
+app.config['SECRET_KEY'] = 'my-secret-key'
 
 # Create SocketIO app (this adds WebSocket support to Flask)
 socketio = SocketIO(app)
