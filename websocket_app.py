@@ -1,4 +1,4 @@
-# Step 1: Import Flask and SocketIO
+#  Import Flask and SocketIO
 from flask import Flask, render_template_string
 from flask_socketio import SocketIO, emit
 
