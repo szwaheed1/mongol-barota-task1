@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 # Create our Flask app
 app = Flask(__name__)
 
-# Our fake database (same as before)
+# Our database
 todos = [
     {"id": 1, "task": "Learn Flask", "done": False},
     {"id": 2, "task": "Build an API", "done": False}
